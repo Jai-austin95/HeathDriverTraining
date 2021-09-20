@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+body {
+	background-color: #ff0004;
+	font-family: 'Lato', cursive;
+    padding: 0;
+    margin: auto 0;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+    
+
+}
+
+#navbar {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    padding: 20px 60px;
+    
+}
+
+#logo {
+	letter-spacing: 3px;
+	font-size: 24px;
+	color: #f00004;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 16px;
+	list-style-type: none;
+	letter-spacing: 3px;
+	font-size: 18px;
+	color: #ff0004;
+	margin-bottom: 0;
+	margin-left: auto;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#menu li {
+	margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#menu li:last-child {
+	margin-right: 0;
+    
+}
+
+#logo a {
+	text-decoration: none;
+	color: #ff0004;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo-forward-slash {
+    color: #451813;
+    letter-spacing: 3px;
+	font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#menu a:hover {
+	border-bottom: 1px solid #ffffff;
+}
+
+.active {
+	border-bottom: 1px solid #ffffff;
+}
+
+#homepage-first-section {
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	margin-top: 80px;
+    background-color: #ffffff;
+}
+
+#company-logo {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    margin-left: 18%;
+}
+
