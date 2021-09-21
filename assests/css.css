@@ -7,6 +7,17 @@ body {
     margin: auto 0;
 }
 
+#facebook {
+	visibility: hidden;
+	font-size: 50px;
+	padding: 15px;
+}
+
+#insta {
+	visibility: hidden;
+	font-size: 50px;
+}
+
 /* Nav bar */
 
 header {
