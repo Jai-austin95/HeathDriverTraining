@@ -7,12 +7,15 @@ body {
     margin: auto 0;
 }
 
+/* Nav bar */
+
 header {
     position: fixed;
     z-index: 1;
     width: 100%;
     top: 0;
     background-color: #ffffff;
+	margin-bottom: auto;
     
 
 }
@@ -78,12 +81,14 @@ header {
 }
 
 #menu a:hover {
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 2px solid #ff0004;
 }
 
 .active {
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 2px solid #ff0004;
 }
+
+/* Homepage */
 
 .homepage-first-section {
 	height: 200px;
@@ -117,4 +122,25 @@ header {
 .about {
 	min-height: 300px;
 	font-family: 'Montserrat', sans-serif;
+}
+
+/* Contact page */
+
+.contact-flexbox-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact-box-1 {
+	width: 48%;
+	min-height: 400px;
+	border: 2px solid #000;
+	margin-top: 75px;
+}
+
+.contact-box-2 {
+	width: 48%;
+	min-height: 400px;
+	border: 2px solid #000;
+	margin-top: 75px;
 }
